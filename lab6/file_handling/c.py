@@ -1,6 +1,6 @@
 import os
 
-path = "/path/to/file.txt"
+path = "/Users/Hp/Documents/pp2_dias/PP2/lab4"
 
 # Check existence
 if not os.path.exists(path):

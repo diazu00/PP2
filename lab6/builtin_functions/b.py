@@ -6,7 +6,7 @@ def count_letters(s):
         elif i.islower():
             cnt_l += 1
     return(cnt_u, cnt_l)
-s = "This IS a SeCond TaSk"
+s = str(input())
 cnt_u, cnt_l = count_letters(s)
 print("Uppercase letters: ", cnt_u)
 print("Lowercase_letters: ", cnt_l)

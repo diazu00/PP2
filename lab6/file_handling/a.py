@@ -1,6 +1,6 @@
 import os
 
-path = "/path/to/directory"
+path = "/Users/Hp/Documents/pp2_dias/PP2/lab4"
 
 # List only directories
 print("Directories:")

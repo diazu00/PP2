@@ -1,5 +1,5 @@
 lst = [i for i in input().split()]
-filename = 'example.txt'
+filename = 'snake.txt'
 # Открытие файла для записи в режиме "w" (write)
 with open(filename , 'w') as f:
     # Запись списка в файл
