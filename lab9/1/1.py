@@ -70,7 +70,7 @@ class coind(pygame.sprite.Sprite):
         self.rect.move_ip(0, 5)
 
         if (pygame.sprite.spritecollideany(P1, coins)):
-            pygame.mixer.Sound("C:/Users/Hp/Documents/pp2-22B030201/PP2/lab9/1/coin-sound.wav").play()
+            pygame.mixer.Sound("C:/Users/Hp/Documents/pp2_dias/PP2/lab9/1/coin-sound.wav").play()
             Number_of_coins += 1
             self.rect.top = 0
             self.rect.center = (random.randint(40, SCREEN_WIDTH - 40), 0)

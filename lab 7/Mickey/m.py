@@ -5,9 +5,9 @@ pygame.init()
 display = pygame.display.set_mode((600, 600))
 
 #images
-back = pygame.image.load('pp2-22B030201/TSIS7/mickyClock/images/back.jpeg')
-right = pygame.image.load('pp2-22B030201/TSIS7/mickyClock/images/Long.png')
-left = pygame.image.load('pp2-22B030201/TSIS7/mickyClock/images/Short.png')
+back = pygame.image.load('C:/Users/Hp/Documents/pp2_dias/PP2/lab 7/Mickey/back.jpeg')
+right = pygame.image.load('C:/Users/Hp/Documents/pp2_dias/PP2/lab 7/Mickey/Long.png')
+left = pygame.image.load('C:/Users/Hp/Documents/pp2_dias/PP2/lab 7/Mickey/Short.png')
 
 back = pygame.transform.scale(back, (600, 600))
 right = pygame.transform.scale(right, (300, 300))
